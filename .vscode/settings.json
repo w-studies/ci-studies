@@ -1,0 +1,171 @@
+{
+  "editor.formatOnSave": true,
+
+  // enables colors
+  "editor.bracketPairColorization.enabled": true,
+
+  "workbench.colorCustomizations": {
+    "editor.background": "#232525",
+    "sideBar.background": "#3c3f41",
+
+    "editorBracketHighlight.foreground1": "#fafafa",
+    "editorBracketHighlight.foreground2": "#bbb",
+    "editorBracketHighlight.foreground3": "#888",
+    "editorBracketHighlight.foreground4": "#666",
+    "editorBracketHighlight.foreground5": "#bda479",
+    "editorBracketHighlight.foreground6": "#9876AA",
+    "editorBracketHighlight.foreground7": "LightSkyBlue",
+    "editorBracketHighlight.foreground8": "Salmon"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "variable.other.php",
+          "variable.language.this.php",
+          "variable.other.global.safer.php"
+        ],
+        "settings": {
+          "foreground": "#51a2bb"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.php",
+          "keyword.php",
+          "meta.class.body.php constant.language.php"
+        ],
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#109148"
+        }
+      },
+      {
+        "scope": [
+          "storage.php",
+          "meta.class.body.php constant.language.php",
+          "keyword.control.import.include.php"
+        ],
+        "settings": { "foreground": "#109148" }
+      },
+      {
+        "scope": ["storage.modifier.php"],
+        "settings": { "foreground": "#17d86a" }
+      },
+      {
+        "scope": ["comment.block.documentation.phpdoc.php"],
+        "settings": { "foreground": "#b4c7af" }
+      },
+      {
+        "scope": [
+          "comment.line.double-slash.php",
+          "comment.line.number-sign.php",
+          "punctuation.definition.comment.php"
+        ],
+        "settings": { "foreground": "#5d626e" }
+      },
+      {
+        "scope": [
+          "keyword.other.phpdoc.php",
+          "keyword.control.if.php",
+          "keyword.control.else.php",
+          "support.function.construct.output.php",
+          "constant.language.php"
+        ],
+        "settings": { "foreground": "#5c9173", "fontStyle": "italic" }
+      },
+      {
+        "scope": ["support.function.construct.output.php", "support.function.construct.php"],
+        "settings": { "foreground": "#1d7c46", "fontStyle": "bold" }
+      },
+      {
+        "scope": [
+          "keyword.other.type.php",
+          "variable.other.constant.ruby",
+          "variable.other.env",
+          "keyword.core.apacheconf",
+          "keyword.rewrite.apacheconf"
+        ],
+        "settings": { "foreground": "#ac7832", "fontStyle": "" }
+      },
+      {
+        "scope": ["punctuation.section.embedded.begin.php"],
+        "settings": { "foreground": "#A50400" }
+      },
+      {
+        "scope": [
+          "entity.other.inherited-class.php",
+          "meta.method-call.php entity.name.function.php"
+        ],
+        "settings": { "foreground": "#bda479" }
+      },
+      {
+        "scope": ["meta.method-call.php entity.name.function.php"],
+        "settings": { "foreground": "#D6A55B" }
+      },
+      {
+        "scope": ["variable.other.property.php", "variable.other.global.php"],
+        "settings": { "foreground": "#2A84AF" }
+      },
+      {
+        "scope": [
+          "support.constant.ext.php",
+          "constant.other.php",
+          "meta.class.body.php constant.language.php"
+        ],
+        "settings": { "foreground": "#9876AA", "fontStyle": "italic" }
+      },
+      {
+        "scope": ["meta.function-call.generic"],
+        "settings": { "foreground": "#005500", "fontStyle": "italic" }
+      },
+      {
+        "scope": [
+          "entity.name.type",
+          "entity.name.function.php",
+          "entity.name.type.namespace.php",
+          "keyword.operator.class.php",
+          "meta.method-call.php",
+          "keyword.operator.logical.php",
+          "keyword.operator.key.php",
+          "keyword.operator.ternary.php",
+          "keyword.operator.assignment.php",
+          "support.class.php"
+        ],
+        "settings": { "foreground": "#bbb", "fontStyle": "" }
+      },
+      {
+        "scope": ["meta.method-call.static.php entity.name.function.php"],
+        "settings": { "fontStyle": "italic" }
+      },
+      {
+        "scope": ["support.function", "punctuation.section.array.begin.php"],
+        "settings": {
+          "foreground": "#ccc"
+        }
+      },
+      {
+        "scope": ["string.quoted.single.php", "string.quoted.double.php"],
+        "settings": {
+          "foreground": "#be5f58"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.string.begin.php",
+          "punctuation.definition.string.end.php"
+        ],
+        "settings": {
+          "foreground": "#962d25"
+        }
+      },
+      {
+        "scope": ["constant.numeric"],
+        "settings": {
+          "foreground": "#BB1B6A"
+        }
+      }
+    ]
+  },
+  "dotenv.enableAutocloaking": false
+}
