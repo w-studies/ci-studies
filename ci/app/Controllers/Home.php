@@ -7,6 +7,7 @@ use App\Models\GendersModel;
 class Home extends BaseController
 {
   protected $data;
+  protected $model;
 
   public function __construct()
   {
