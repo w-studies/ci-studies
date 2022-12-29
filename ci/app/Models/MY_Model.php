@@ -30,7 +30,6 @@ class MY_Model extends Model
 
     $result = $this->get()->getResult();
 
-    #pr($this->db->last_query());
     // if query has any result
     if (sizeof($result)) {
       // for each result
@@ -49,6 +48,5 @@ class MY_Model extends Model
     } elseif (isset($args['return'])) {
       return $args['return'];
     }
-    return [];
   }
 }
